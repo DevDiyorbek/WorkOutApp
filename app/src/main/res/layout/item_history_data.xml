@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/item_history_row"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="14dp"
+    android:background="#BFC0CC">
+
+    <TextView
+        android:id="@+id/tvOrder"
+        android:layout_marginRight="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="1"
+        android:textStyle="bold"/>
+    
+    <TextView
+        android:id="@+id/tvDateOfWorkOut"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Time of doing Ex"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    
+
+
+</LinearLayout>
